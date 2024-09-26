@@ -5,6 +5,6 @@ import { AppService } from './app.service';
 @Module({
   imports: [],
   controllers: [AppController],
-  providers: [AppService],
+  providers: [AppService], // dependências que os controllers possuem
 })
 export class AppModule {}
