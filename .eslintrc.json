@@ -5,7 +5,8 @@
     "prettier/prettier": [
       "error",
       {
-        "singleQuote": true // Garante que o Prettier e o ESLint usem aspas simples
+        "singleQuote": true, // Garante que o Prettier e o ESLint usem aspas simples
+        "parser": "babel-eslint"
       }
     ]
   }
